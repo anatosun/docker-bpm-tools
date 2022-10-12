@@ -19,7 +19,7 @@ To run bpm-tools with the pre-built image, simply run the following
 command.
 
 ```shell 
-docker run -d --name bpm-tools -e PUID=1000 -e PGID=1000 -e INTERVAL=1000 -e TZ=Europe/Berlin -v <you_music_dir>:/music
+docker run -d --name bpm-tools -e PUID=1000 -e PGID=1000 -e INTERVAL=1000 -e TZ=Europe/Berlin -v "${PWD}/your_music_dir:/music" wichtf/bpm-tools
 ```
 
 ### Compose
