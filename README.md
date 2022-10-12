@@ -40,7 +40,7 @@ services:
       - TZ=Europe/Berlin
       - INTERVAL=1000
     volumes:
-      - ./music:/music 
+      - <your_music_dir>:/music 
 
 ```
 
